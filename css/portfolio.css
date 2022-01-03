@@ -196,18 +196,9 @@
     line-height: 35px;
 }
  
-
-.card-action 
-a.btn-floating {
-    margin-bottom: 0;
-  }
-  #contact a:not(.btn-floating) {
-    bottom: 6px;
-    left: 20px;
-    position: relative;
-  }
-  .fa-external-link:before {
-    left: 3px;
-    position: relative;
-    top: 2px;
-  }
+.cta-btn{
+    border: #239def 1px solid;
+    border-radius: 100px;
+    font-size: 20px;
+    padding: 5px;
+}
