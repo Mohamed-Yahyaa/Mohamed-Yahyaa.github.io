@@ -98,17 +98,17 @@ let itemPerSlide = 0;
 let sliderDot;
 
 const responsive = [{
-    breakPoint: {
-      width: 0,
-      item: 1,
-    },
+  breakPoint: {
+    width: 0,
+    item: 1,
   },
-  {
-    breakPoint: {
-      width: 991,
-      item: 2,
-    },
+},
+{
+  breakPoint: {
+    width: 991,
+    item: 2,
   },
+},
 ];
 
 function load() {
