@@ -25,6 +25,8 @@
   padding: 30px;
   text-align: center;
   position: relative;
+  margin-left: 400px;
+  
 }
 
 .box::before {
