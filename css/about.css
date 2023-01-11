@@ -60,7 +60,7 @@
 }
 
 .text p {
-  font-size: 15px;
+  font-size: 16px;
   font-weight: 400;
   line-height: 24px;
   color: #000000;
@@ -84,13 +84,13 @@
 }
 
 .fa-ul li {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 400;
   color: #000000
 }
 
 .fa-ul .fa-li {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 400;
   color: #838383
 }
@@ -120,7 +120,7 @@
 
 .social a .fa {
   color: #fff;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .social a .fa:hover {
