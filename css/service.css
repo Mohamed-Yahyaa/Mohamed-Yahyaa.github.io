@@ -22,6 +22,10 @@
   position: relative;
   overflow: hidden;
   box-shadow: var(--glass-shadow);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 
 .services .box::before {
@@ -58,6 +62,8 @@
   align-items: center;
   margin-bottom: 25px;
   transition: all 0.3s ease;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .services .box:hover .icon {
