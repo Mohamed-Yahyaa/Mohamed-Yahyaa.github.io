@@ -1,46 +1,78 @@
 footer {
-    padding: 70px 15px;
-    background-color: #01143e;
+  padding: 60px 0 40px;
+  background: rgba(3, 10, 28, 0.9);
+  border-top: 1px solid rgba(95, 136, 224, 0.2);
+  position: relative;
+  z-index: 10;
+}
+
+footer .row {
+  justify-content: space-between;
+  align-items: center;
 }
 
 .footer-logo {
-    flex: 0 0 100%;
-    max-width: 100%;
-    text-align: center;
-    font-size: 45px;
-    font-family: 'Lobster', cursive;
-    color: rgb(236, 241, 250);
-    font-weight: 900;
+  font-family: var(--font-brand);
+  font-size: 2.2rem;
+  color: var(--color-text);
+  background: linear-gradient(135deg, #ffffff, var(--color-accent));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .social-link {
-    flex: 0 0 100%;
-    max-width: 100%;
-    text-align: center;
-    padding-top: 15px;
+  display: flex;
+  gap: 12px;
 }
 
 .social-link a {
-    color: #999999;
-    display: inline-block;
-    margin: 0px 12px;
-    transition: all 0.5s ease;
+  height: 42px;
+  width: 42px;
+  background: rgba(95, 136, 224, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgba(95, 136, 224, 0.25);
+  border-radius: 12px;
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+  color: var(--color-text);
+  text-decoration: none;
 }
 
 .social-link a:hover {
-    color: rgb(236, 241, 250)
+  background: var(--color-accent);
+  color: #ffffff;
+  transform: translateY(-4px);
+  box-shadow: 0 10px 20px rgba(95, 136, 224, 0.4);
+  border-color: var(--color-accent-light);
+}
+
+.social-link a .fa {
+  font-size: 1.1rem;
 }
 
 .copyright {
-    background-color: #01143e;
-    border-top: 1px solid #423940;
-    padding: 15px;
+  padding: 25px 0;
+  background: #020714;
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+  text-align: center;
 }
 
 .copyright p {
-    margin: 0;
+  font-size: 0.9rem;
+  color: var(--color-text-muted);
+  margin: 0;
+}
+
+.copyright p span#year {
+  color: var(--color-accent-light);
+  font-weight: 600;
+}
+
+@media (max-width: 767px) {
+  footer .row {
+    flex-direction: column;
+    gap: 20px;
     text-align: center;
-    font-size: 14px;
-    font-weight: 400;
-    color: rgb(236, 241, 250);
+  }
 }
